@@ -384,47 +384,6 @@ body {
     }
 }
 
-#flip {
-    position: fixed;
-    height: 20px;
-    width: 100%;
-    bottom: 20px;
-    font-size: 10px;
-    text-align: center;
-}
-
-#pageup, #pagedown {
-    height: 20px;
-    width: 70px;
-    display: inline-block;
-    border-radius: 5px;
-    background-color: #AAA;
-    text-align: center;
-    line-height: 20px;
-    color: #FFF;
-}
-
-#pageup {
-    margin-right: 5px;
-}
-
-#pageup:hover,
-#pagedown:hover {
-    background-color: #444;
-    cursor: pointer;
-}
-
-#pagedown {
-    margin-left: 5px;
-}
-
-@media (min-width: 40rem) {
-    #flip {
-        margin-left: 545px;
-        width: 160px;
-    }
-}
-
 .progress-indicator-2 {
     position: fixed;
     top: 0;
